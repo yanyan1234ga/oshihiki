@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/oshistyle.css">
+    <title>自分子vs親のリーチ（鳴き）</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">麻雀ツール</div>
+    </div>
+
+    <form name="sample_form" action="index.html" method="post">
+
+        <div class="main">
+          <div class="main-form">
+            <div class="form-title">自分子vs親のリーチ（鳴き）</div>
+            <div class="form-item">牌</div>
+              <select class="chose" name="line">
+                <option value="a1">スジ19</option>
+                <option value="a2">スジ2378</option>
+                <option value="a3">無スジ2378</option>
+                <option value="a4">両無スジ456</option>
+              </select>
+
+            <div class="form-item">形</div>
+              <select class="chose" name="shape">
+                <option value="k1">のみ手完全</option>
+                <option value="k2">2ハン完全</option>
+                <option value="k3">3ハン完全</option>
+                <option value="k4">4ハン完全</option>
+                <option value="r1">のみ手両面*2</option>
+                <option value="r2">2ハン両面*2</option>
+                <option value="r3">3ハン両面*2</option>
+                <option value="r4">4ハン両面*2</option>
+                <option value="h1">のみ手良形と愚形</option>
+                <option value="h2">2ハン良形と愚形</option>
+                <option value="h3">3ハン良形と愚形</option>
+                <option value="h4">4ハン良形と愚形</option>
+                <option value="g1">のみ手愚形</option>
+                <option value="g2">2ハン愚形</option>
+                <option value="g3">3ハン愚形</option>
+                <option value="g4">4ハン愚形</option>
+              </select>
+            <br>
+
+            <div class="form-item">巡目</div>
+              <select class="chose" name="round">
+                <option value="序盤">序盤</option>
+                <option value="中盤">中盤</option>
+                <option value="終盤">終盤</option>
+              </select>
+          <br>
+            <p>※巡目は正確な巡目ではなく大体でよい</p>
+          <br>
+          <button id="btn1" type="button" class="btn" >計算する</button>
+            <br>
+            <div id="result" class="result"></div>
+          </div>
+
+        </div>
+
+        <script type="text/javascript" src="oshihiki005.js"></script>
+
+      </form>
+
+
+    <div class="footer">
+      <div class="footer-list">
+        <ul>
+          <a href="index.html">ホーム</a> <br>
+          <a href="gaiyou.html">ホームページ概要</a><br>
+          <a href="toiawase.html">お問い合わせ</a>
+        </ul>
+      </div>
+    </div>
+
+  </body>
+</html>

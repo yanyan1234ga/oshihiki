@@ -1,0 +1,82 @@
+.header {
+  color: white;
+  background-color:  rgba(34, 49, 52, 0.9);
+  height: 90px;
+}
+
+
+.header-logo {
+  font-size: 38px;
+  float: left;
+}
+
+.contact-form {
+  padding-top: 80px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.toitext {
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  box-shadow: 0 7px #dddddd;
+}
+
+.contact-submit:active {
+  background-color: #dee7ec;
+  color: #889eab;
+  box-shadow: 0 7px #dddddd;
+  box-shadow:none;
+  position: relative;
+  top:10px;
+}
+
+.footer {
+  width: 95%;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  bottom: 0;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+
+.footer-list a {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer-list a:active{
+  padding-bottom: 20px;
+  color: #009bc6;
+}

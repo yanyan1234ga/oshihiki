@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  color: white;
+  background-color:  rgba(34, 49, 52, 0.9);
+  height: 90px;
+}
+
+.header-logo {
+  font-size: 38px;
+  float: left;
+}
+
+.main {
+  padding: 80px 50px;
+  background-image: url(IMG_8171.JPG);
+  background-size: cover;
+  text-align: center;
+}
+
+.copy-container h1 {
+  font-size: 100px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 50px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contents a {
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+  background-color: #499149;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  text-decoration: none;
+}
+
+.contents a:active {
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #499149;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow:none;
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+}
+
+.btn {
+  margin: 30px;
+  font-size: 30px;
+  display: inline-flex;
+  justify-content: center; /* コンテンツを水平方向に中央揃え */
+  align-items: center; /* コンテンツを垂直方向に中央揃え */
+  --padding-x: 1.2em;
+  box-shadow: 0 7px #dddddd;
+}
+
+.btn:active{
+  margin: 30px;
+  font-size: 30px;
+  display: inline-flex;
+  justify-content: center; /* コンテンツを水平方向に中央揃え */
+  align-items: center; /* コンテンツを垂直方向に中央揃え */
+  --padding-x: 1.2em;
+  box-shadow:none;
+  position: relative;
+  top:10px;
+}
+
+.footer {
+  width: 95%;
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  bottom: 0;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+
+.footer-list a {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer-list a:active{
+  padding-bottom: 20px;
+  color: #009bc6;
+}
